@@ -13,9 +13,6 @@ public class Fecha {
     
    private byte dia;
    private byte mes;
-   private String [] meses = {null,"enero","febrero","marzo","abril","mayo",
-                              "junio","julio","agosto","septiembre","octubre",
-                              "noviembre","diciembre"};
    private int year;
 
     public Fecha(byte dia, byte mes, int año) {
@@ -40,19 +37,16 @@ public class Fecha {
     public int getYear() {
         return year;
     }
-
     
-    public String toString(Fecha fecha) {
-        return "Fecha{" + dia + " de " + meses[fecha.getMes()] + " de " + year + '}';
-    }
 
-    public String comparar(Fecha fecha1, Fecha fecha2){
-        if(fecha1.getYear() == fecha2.getYear()){
-            if(fecha1.getMes() == fecha2.getMes() && fecha1.getDia() == fecha2.getDia()){
-                return fecha1.toString() + " es igual a " + fecha2.toString();
+    public static boolean comparar(Fecha fecha1, Fecha fecha2){
+        if(fecha1.getYear == fecha2.getYear){
+            if(fecha1.getMes == fecha2.getMes){
+                if(fecha1.getDia == fecha2.getDia)return true;
             }
         }
-       return fecha1.toString() + " es igual a " + fecha2.toString();
+        return false;
+        
     }
 }
     
