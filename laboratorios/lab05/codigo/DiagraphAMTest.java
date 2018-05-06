@@ -1,46 +1,15 @@
-import static org.junit.Assert.*;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import java.util.ArrayList;
-
-/**
- * The test class DigraphAMTest.
- *
- * @author  (your name)
- * @version (a version number or a date)
- */
 public class DiagraphAMTest
 {
+    //https://github.com/ilabradors
     /**
      * Default constructor for test class DigraphAMTest
      */
-    public DigraphAMTest()
+    public DiagraphAMTest()
     {
     }
 
-    /**
-     * Sets up the test fixture.
-     *
-     * Called before every test case method.
-     */
-    @Before
-    public void setUp()
-    {
-    }
-
-    /**
-     * Tears down the test fixture.
-     *
-     * Called after every test case method.
-     */
-    @After
-    public void tearDown()
-    {
-    }
-
-    @Test
-    public void From0To3()
+    public void prueba()
     {
        DiagraphAM dgal = new DiagraphAM(5);
        dgal.addArc(0,1,10);
@@ -57,6 +26,9 @@ public class DiagraphAMTest
        assertEquals(path.get(1),2);
        assertEquals(path.get(2),1);
        assertEquals(path.get(3),3);
+    }
 
+    private void assertEquals(Object get, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

@@ -1,11 +1,6 @@
 import java.util.ArrayList;
-/**
- * Abstract class for implementations of Digraphs
- * 
- * @author Mauricio Toro
- * @version 1
- */
 public abstract class Graph
+        //https://github.com/ilabradors
 {
    protected int size;
    public  Graph(int vertices) 

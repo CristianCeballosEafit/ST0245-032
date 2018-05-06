@@ -1,12 +1,5 @@
-
-/**
- * Clase Pareja para poder hacer una lista que tenga dos valores en sus nodos
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class pareja {
-
+//https://github.com/ilabradors
     public int vertice;
     public int peso;
 
