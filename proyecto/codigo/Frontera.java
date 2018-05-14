@@ -1,16 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package proyectodatos1;
-
-/**
- *
- * @author sloaizac
- */
+package proyecto;
 public class Frontera{
-
+    
     double xMin, xMax, yMin, yMax;
     
     Frontera(double xMin, double yMin, double xMax, double yMax){

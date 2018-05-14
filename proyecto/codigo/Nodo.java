@@ -1,23 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package proyectodatos1;
+package proyecto;
 
-/**
- *
- * @author 
- * Sacado de:
- * AbhijeetMajumdar(2015) QuadTree (Version1),https://gist.github.com/AbhijeetMajumdar/c7b4f10df1b87f974ef4
- */
+import javax.swing.ImageIcon;
+
 public class Nodo {
+
     double x, y;
     int value;
 
-	Nodo(double x, double y, int value) {
-		this.x = x;
-		this.y = y;
-		this.value = value; /* some data*/ 
-	}
+    Nodo(double x, double y, int value) {
+        this.x = x;
+        this.y = y;
+        this.value = value;
+        /* some data*/
+    }
 }
